@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* responsive main agenda border-box*/
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            background-color: aquamarine;
+            border:1px solid red;
+            text-align: center;
+            padding: 15px;
+        }
+        nav{
+            width:25%;
+           padding:15px;
+            float:left;
+            height:700px;
+            border:1px solid red;
+           
+           
+            background-color: chocolate;
+        }
+        .main
+        {
+            width:75%;
+           
+            padding:15px;
+            float:left;
+            border:1px solid red;
+        }
+        @media(min-width:100px) and (max-width:500px)
+        {
+            nav{
+               width: 50%;
+               padding:10px;
+               float: left;
+            };
+            .main{
+                width: 50%;
+               padding:10px;
+               float: left;
+            };
+
+            }
+            @media(min-width:100px) and (max-width:290px)
+        {
+            nav{
+               width: 40%;
+               padding:10px;
+               float: left;
+            };
+            .main{
+                width: 60%;
+               padding:10px;
+               float: left;
+            };
+
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>India</h1>
+
+    </header>
+    <nav>
+        <h3>Tamilnadu-cities</h3>
+        <ul>
+            <li>Chennai</li>
+            <li>Coimbatore</li>
+            <li>Trichy</li>
+
+        </ul>
+    </nav>
+    <section class="main">
+        <h1>Chennai</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus modi ipsum maiores nemo, pariatur accusantium eum distinctio! Pariatur quia odit quibusdam, qui voluptatibus, ipsa et aliquid natus voluptatum quisquam
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo mollitia at veniam repellat hic excepturi inventore in, deserunt quibusdam quisquam. Placeat eum ullam at impedit reprehenderit optio odit molestias qui!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat esse quae velit tempora ex, natus voluptate quaerat deserunt voluptatum explicabo suscipit magni eos nisi eveniet ab. A deleniti error eaque!
+        </p>
+    </section>
+</body>
+</html>

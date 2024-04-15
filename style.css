@@ -1,0 +1,43 @@
+/*element selector*/
+p
+{
+    border:5px solid rgb(100, 0, 99);
+    font-size:16px;
+    padding:20px;
+    
+}
+h1
+{
+    text-align: center;
+}
+/*class selector*/
+.test
+{
+    border:5px solid rgb(100, 43, 0);
+    font-size:3em;
+    padding:20px;   
+    background-color: blue;
+
+}
+/*id selector*/
+
+#test1
+{
+    border:5px groove rgb(100, 43, 0);
+    font-size:2em;
+    padding:20px;
+    height:300px;
+    width:400px;  
+    overflow:scroll;
+}
+/*universal selector*/
+
+*
+{
+background-color: rgb(86, 68, 1);
+color:dimgrey;
+
+}
+body{
+    background-color:chartreuse ;
+}
